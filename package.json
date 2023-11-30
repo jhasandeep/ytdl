@@ -1,0 +1,20 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "description": "it can download video in one click ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "ytdl-core": "^4.11.5"
+  }
+}
